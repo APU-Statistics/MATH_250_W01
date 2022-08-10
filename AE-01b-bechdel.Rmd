@@ -4,12 +4,13 @@ subtitle: "OPTIONAL, for more practice"
 author: "YOUR NAME HERE"
 output: 
   html_document:
-    tufte::tufte_html:
-    tufte_variant: "envisioned"
-    highlight: pygments
     toc: true
-    toc_depth: 1
+    toc_float: true
+    number_section: false
+    highlight: tango
+    theme: "cosmo"
 link-citations: yes
+editor: visual
 editor_options: 
   markdown: 
     wrap: sentence

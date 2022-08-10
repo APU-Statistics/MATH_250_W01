@@ -3,7 +3,13 @@ title: "Lab 01: Hello R!"
 subtitle: ""
 author: "YOUR NAME HERE"
 date: "due September 6"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_section: false
+    highlight: tango
+    theme: "cosmo"
 ---
 
 ```{r load-packages, message=FALSE}

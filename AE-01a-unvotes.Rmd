@@ -4,12 +4,13 @@ subtitle: "due Thursday, September 1, 4:20pm"
 author: "YOUR NAME HERE"
 output: 
   html_document:
-    tufte::tufte_html:
-    tufte_variant: "envisioned"
-    highlight: pygments
     toc: true
-    toc_depth: 1
+    toc_float: true
+    number_section: false
+    highlight: tango
+    theme: "cosmo"
 link-citations: yes
+editor: visual
 editor_options: 
   markdown: 
     wrap: sentence
@@ -73,11 +74,13 @@ unvotes %>%
 
 # Submission
 
-For this first Application Exercise, you do not need to submit anything to Canvas; I will simply view your work via RStudio Cloud. You will learn how to submit your documents in Lab 01. 
+For this first Application Exercise, you do not need to submit anything to Canvas; I will simply view your work via RStudio Cloud.
+You will learn how to submit your documents in Lab 01.
 
 # Grading (10 pts)
- 
-Application exercises are graded on completion. You will receive full credit if a reasonable attempt was made on each exercise. 
+
+Application exercises are graded on completion.
+You will receive full credit if a reasonable attempt was made on each exercise.
 
 ## References
 
@@ -85,7 +88,7 @@ Application exercises are graded on completion. You will receive full credit if 
 2.  Erik Voeten "Data and Analyses of Voting in the UN General Assembly" Routledge Handbook of International Organization, edited by Bob Reinalda (published May 27, 2013).
 3.  Much of the analysis has been modeled on the examples presented in the [unvotes package vignette](https://cran.r-project.org/web/packages/unvotes/vignettes/unvotes.html).
 
-## Appendix
+## Appendix {#appendix}
 
 Below is a list of countries in the dataset:
 
